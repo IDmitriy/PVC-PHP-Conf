@@ -1,0 +1,23 @@
+[PHP]
+
+;;;;;;;;;;;;;;;;;;;
+; About php.ini   ;
+;;;;;;;;;;;;;;;;;;;
+; PHP's initialization file, generally called php.ini, is responsible for
+; configuring many of the aspects of PHP's behavior.
+
+; Directory in which the loadable extensions (modules) reside.
+; http://php.net/extension-dir
+extension_dir = "C:/All/Tools/Install/PHP/ext"
+; On windows:
+; extension_dir = "ext"
+
+; Temporary directory for HTTP uploaded files (will use system default if not
+; specified).
+; http://php.net/upload-tmp-dir
+upload_tmp_dir = "C:/All/Tools/Install/PHP/tmp"
+
+; where MODE is the octal representation of the mode. Note that this
+; does not overwrite the process's umask.
+; http://php.net/session.save-path
+session.save_path = "C:/All/Tools/Install/PHP/tmp"
